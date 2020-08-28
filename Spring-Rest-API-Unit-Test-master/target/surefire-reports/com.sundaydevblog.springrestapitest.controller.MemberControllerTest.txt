@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.sundaydevblog.springrestapitest.controller.MemberControllerTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.952 s <<< FAILURE! - in com.sundaydevblog.springrestapitest.controller.MemberControllerTest
+shouldVerifyInvalidPropertyNameWhenUpdateMember  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<200>
+	at com.sundaydevblog.springrestapitest.controller.MemberControllerTest.shouldVerifyInvalidPropertyNameWhenUpdateMember(MemberControllerTest.java:152)
+
